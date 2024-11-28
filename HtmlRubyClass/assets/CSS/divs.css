@@ -1,0 +1,24 @@
+.cars {
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+.fruits {
+    background-color: chartreuse;
+    border: 3px solid grey;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#code {
+    background-color: pink;
+    border: 3px solid grey;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}

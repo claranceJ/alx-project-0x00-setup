@@ -1,0 +1,8 @@
+*,*::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+/* read about linear gradient you can get gradients from uigradientswebsite*/ 
+/* use 333 for black colors */
+/* transitions="all 0.3s ease-in-out */

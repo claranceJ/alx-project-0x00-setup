@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Details</title>
+</head>
+<body>
+<h2>Students Registration Form</h2>
+
+<form action="" method="post">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" placeholder="john" required>
+    <br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="fname" placeholder="doe" required>
+    <br><br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="female">
+    <br><br>
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="male">
+    <br><br>
+    <label for="custom">custom</label>
+    <input type="radio" name="gender" id="custom">
+    <br><br>
+    <label for="course">Course</label>
+    <select name="course" id="course">
+        <option value="php">PHP</option>
+        <option value="react">ReactJS</option>
+        <option value="java">JAVA</option>
+        <option value="python">Python</option>
+        <option value="sql">SQL</option>
+        <option value="aws">AWS</option>
+        <option value="others">Others</option>
+    </select>
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+    <br><br>
+    <label for="cv">Attach your CV</label>
+    <input type="file" name="cv" id="cv">
+    <br><br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell us why you want the path above...."></textarea>
+    <br><br>
+    <input type="submit" value="Register Here!">
+
+</form>
+
+</body>
+</html>

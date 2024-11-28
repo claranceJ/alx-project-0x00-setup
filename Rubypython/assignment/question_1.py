@@ -5,6 +5,6 @@ def reverse_string(s):
      return s [::-1]  #this is the slice bracket
 
 
-my_reverse = reverse_string("We just did our first pair programming")
+my_reverse = reverse_string("MUM")
 print(my_reverse)
 
